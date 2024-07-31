@@ -5,7 +5,7 @@ I successfully fine-tuned a BERT-based uncased model from the Hugging Face libra
 
 **Dataset Kaggle :** https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset?ref=hackernoon.com
 
-**Summary of the Code : **
+**Summary of the Code :**
 
 This code demonstrates how to fine-tune a BERT-based model using TensorFlow and the Hugging Face library for a text classification task. The specific task involves classifying tweets from the Kaggle Hate Speech dataset into three categories: Hate Speech, Offensive Language, and Neither.
 
