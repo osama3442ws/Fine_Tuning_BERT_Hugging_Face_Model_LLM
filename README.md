@@ -10,28 +10,39 @@ I successfully fine-tuned a BERT-based uncased model from the Hugging Face libra
 This code demonstrates how to fine-tune a BERT-based model using TensorFlow and the Hugging Face library for a text classification task. The specific task involves classifying tweets from the Kaggle Hate Speech dataset into three categories: Hate Speech, Offensive Language, and Neither.
 
 1. Import Necessary Librarie.
+
 2. Load the Dataset
     *Load the dataset from a CSV file using Pandas.
     *Display the first few rows of the dataset.
+   
 3. Visualize Data Distribution
     *Plot the distribution of classes using Seaborn.
+   
 4. Clean the Data
    *Remove Twitter handles from the tweets.
+   
 5. Convert Data to Hugging Face Dataset Format
    *Convert the Pandas DataFrame to a Hugging Face Dataset.
+   
 6. Split the Dataset
    *Split the dataset into training, testing, and validation sets.
+   
 7. Tokenization
    *Initialize a tokenizer and tokenize the dataset.
-8. Prepare TensorFlow Datasets
+   
+9. Prepare TensorFlow Datasets
    *Convert the tokenized datasets to TensorFlow format.
-9. Initialize and Train the Model
+   
+11. Initialize and Train the Model
    *Initialize the BERT model for sequence classification and train it.
-10. Visualize Training Results
+    
+13. Visualize Training Results
    *Plot the training accuracy and loss.
-11. Evaluate the Model
-   *Evaluate the model on the test dataset.   
-12. Make Predictions
+    
+15. Evaluate the Model
+   *Evaluate the model on the test dataset.
+    
+17. Make Predictions
    *Make predictions on sample sentences and display the results.
 
 **This summary outlines the steps taken in the code to load and preprocess the dataset, tokenize the text data, fine-tune a BERT model, evaluate its performance, and make predictions on new data.**
